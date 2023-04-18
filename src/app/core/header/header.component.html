@@ -8,19 +8,43 @@
         <a routerLink="/">
           <i class="fas fa-home"></i>
           Home</a
-        >
+        >|
       </div>
       <div class="menu-button">
         <a routerLink="/productos">
           <i class="fas fa-gifts"></i>
           Fragances
-        </a>
+        </a>|
       </div>
       <div class="menu-button">
         <a routerLink="/gestion">
           <i class="fas fa-edit"></i>
           Management</a
-        >
+        >|
+      </div>
+      <div class="menu-button">
+        <a *ngIf="user" routerLink="/profile">
+          <i class="fas fa-edit"></i>
+          Profile</a
+        >|
+      </div>
+      <div class="menu-button">
+        <a *ngIf="!user"routerLink="/login">
+          <i class="fas fa-edit"></i>
+          Login</a
+        >|
+      </div>
+      <div class="menu-button">
+        <a *ngIf="!user" routerLink="/register">
+          <i class="fas fa-edit"></i>
+          Register</a
+        >|
+      </div>
+      <div class="menu-button">
+        <a *ngIf="user" routerLink="/logout">
+          <i class="fas fa-edit"></i>
+          Logout</a
+        >|
       </div>
     </nav>
   </div>
