@@ -1,9 +1,6 @@
-import { ConfirmExitGuard } from 'src/guards/confirm-exit.guard';
-
-import { AuthGuard } from './../guards/auth.guard';
-
+import { ConfirmExitGuard } from './guards/confirm-exit.guard';
+import { AuthGuard } from './guards/auth.guard';
 import { ProductoComponent } from './pages/products/producto/producto.component';
-
 import { FormularioComponent } from './pages/gestion/formulario/formulario.component';
 import { ListaProductosComponent } from './pages/products/lista-productos/lista-productos.component';
 import { HomeComponent } from './pages/home/home.component';
