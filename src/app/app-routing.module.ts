@@ -1,3 +1,5 @@
+import { ConfirmExitGuard } from 'src/guards/confirm-exit.guard';
+
 import { AuthGuard } from './../guards/auth.guard';
 
 import { ProductoComponent } from './pages/products/producto/producto.component';
@@ -11,7 +13,6 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LogoutComponent } from './pages/logout/logout.component';
-import { ConfirmExitGuard } from 'src/guards/confirm-exit.guard';
 
 const routes: Routes = [
   { path:"", component: HomeComponent },
