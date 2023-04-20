@@ -95,6 +95,26 @@
       "email": "a@gmail.com",
       "password": "1234",
       "id": 6
+    },
+    {
+      "email": "pepa@gmail.com",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "email": "lola@gmail.com",
+      "password": "1234556",
+      "id": 8
+    },
+    {
+      "email": "a@gmail.com",
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "email": "lola@gmail.com",
+      "password": "1234",
+      "id": 10
     }
   ]
 }
