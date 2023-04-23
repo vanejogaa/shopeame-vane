@@ -120,6 +120,11 @@
       "email": "carla74@gmail.com",
       "password": "1234",
       "id": 11
+    },
+    {
+      "email": "marcos80@gmail.com",
+      "password": "1234",
+      "id": 12
     }
   ],
   "register": [
@@ -146,6 +151,14 @@
       "lastname": "Norway",
       "age": 29,
       "id": 15
+    },
+    {
+      "email": "marcos80@gmail.com",
+      "password": "1234",
+      "firstname": "Marcos",
+      "lastname": "Hernandez",
+      "age": 30,
+      "id": 16
     }
   ]
 }
