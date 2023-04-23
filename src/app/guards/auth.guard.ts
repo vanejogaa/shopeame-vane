@@ -14,7 +14,7 @@ export class AuthGuard implements CanActivate {
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
-      if(["perfil","logout"].includes(route.routeConfig?.path!!)){
+      if(["profile","gestion","logout"].includes(route.routeConfig?.path!!)){
       return this.authService.estaLoggeado()
     }
     else if(["login","register"].includes(route.routeConfig?.path!!)){

@@ -1,0 +1,23 @@
+.container {
+    width: 350px;
+	padding:30px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+  }
+  form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+form label{
+	width:100px;
+	font-weight:bold;
+	display:inline-block;
+}
+  

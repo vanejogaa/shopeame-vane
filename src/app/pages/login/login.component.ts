@@ -10,13 +10,16 @@ import { Component } from '@angular/core';
 export class LoginComponent {
   email: string = ""
   pwd: string = ""
+  error = ""
 
-  constructor(private AuthService: AuthService, private router: Router){}
+  constructor(private authService: AuthService, private router: Router){}
   
   login(){
-    this.AuthService.login(this.email,this.pwd).subscribe(data=>{
+    this.authService.login(this.email,this.pwd).subscribe(data=>{
       console.log(data)
-      this.router.navigateByUrl("/")
+      this.error = ""
+      this.authService.setUser(data.user)
+      this.router.navigateByUrl("/profile")
       alert('login correcto')
   
     },

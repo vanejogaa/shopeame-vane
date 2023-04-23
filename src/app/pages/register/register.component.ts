@@ -24,10 +24,10 @@ export class RegisterComponent {
       this.lastname,
       this.age
     ).subscribe(data=>{
-      alert('login correcto')
+      alert('registrado correctamente')
     },
     error=>{
-      alert('login incorrecto')
+      alert('registro incorrecto')
     })
     
   }
