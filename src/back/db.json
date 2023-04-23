@@ -65,7 +65,7 @@
       "id": 8
     }
   ],
-  "users": [
+  "login": [
     {
       "email": "a@gmail.com",
       "password": 1234,
@@ -115,6 +115,37 @@
       "email": "lola@gmail.com",
       "password": "1234",
       "id": 10
+    },
+    {
+      "email": "carla74@gmail.com",
+      "password": "1234",
+      "id": 11
+    }
+  ],
+  "register": [
+    {
+      "email": "carla87@gmail.com",
+      "password": "1234",
+      "firstname": "Carla",
+      "lastname": "Rios",
+      "age": 20,
+      "id": 12
+    },
+    {
+      "email": "fernandoperez85@gmail.com",
+      "password": "1234",
+      "firstname": "Fernando",
+      "lastname": "Perez",
+      "age": 28,
+      "id": 14
+    },
+    {
+      "email": "carla74@gmail.com",
+      "password": "1234",
+      "firstname": "Carla",
+      "lastname": "Norway",
+      "age": 29,
+      "id": 15
     }
   ]
 }
