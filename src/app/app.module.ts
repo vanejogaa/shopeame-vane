@@ -10,10 +10,13 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { PagesModule } from './pages/pages.module';
 import { ProductoServicioService } from './servicios/producto-servicio.service';
+import { NgImageSliderModule } from 'ng-image-slider';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    CarouselComponent,
   ],
 
   imports: [
@@ -24,7 +27,8 @@ import { ProductoServicioService } from './servicios/producto-servicio.service';
     CoreModule, 
     PagesModule,
     FormsModule,
-    RatingModule
+    RatingModule,
+    NgImageSliderModule
   ],
 
   providers: [ProductoServicioService],

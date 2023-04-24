@@ -1,15 +1,18 @@
 <br/>
 <form class="container">
-  
+    <div class="form-group mb-3">
         <label for="email">email</label>
         <input [(ngModel)]="email" class="form-control" type="email" placeholder="email" name="email">
- 
-
+    </div>
+    <div class="form-group mb-3">
         <label for="email">password</label>
         <input [(ngModel)]="pwd" class="form-control" type="password" placeholder="password" name="password">
-
+    </div>
     <br/>
-    <input type="submit" name="enviar" value="get in"/>
+    <button (click)="login()">
+        Register
+    </button>
+    
 </form>
 <br/>
 <br/>
