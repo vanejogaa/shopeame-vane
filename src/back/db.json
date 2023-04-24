@@ -9,36 +9,12 @@
       "id": 1
     },
     {
-      "name": "Freshly",
-      "price": 140,
-      "description": "Smells like Freshly Baked Bread: Involuntarily elegant and cosy",
-      "stars": 4.5,
-      "image": "../assets/smells-img.jpg",
-      "id": 2
-    },
-    {
-      "name": "Like Angular",
-      "price": 127,
-      "description": "Smells like Angular: Acid, woody, with pipes of vanilla, module notes and truffled components. Everything you like separately, but together.",
-      "stars": 4.7,
-      "image": "../assets/smells-img.jpg",
-      "id": 3
-    },
-    {
       "name": "Delicious",
       "price": 98,
       "description": "Smells like Calçots i Romesco: Fun and delicious, with hints of barley and ember.",
       "stars": 4.1,
       "image": "../assets/smells-img.jpg",
       "id": 4
-    },
-    {
-      "name": "Breeze",
-      "price": 119,
-      "description": "Smells like a sea breeze: fresh, pleasant and with a great memory of summer.",
-      "stars": 3.8,
-      "image": "../assets/smells-img.jpg",
-      "id": 5
     },
     {
       "name": "Christmas",
@@ -140,51 +116,6 @@
       "email": "marcos80@gmail.com",
       "password": "1234",
       "id": 15
-    },
-    {
-      "email": "marcos80@gmail.com",
-      "password": "1234",
-      "id": 16
-    },
-    {
-      "email": "marcos80@gmail.com",
-      "password": "1234",
-      "id": 17
-    },
-    {
-      "email": "marcos80@gmail.com",
-      "password": "1234",
-      "id": 18
-    },
-    {
-      "email": "marcos80@gmail.com",
-      "password": "1234",
-      "id": 19
-    },
-    {
-      "email": "marcos80@gmail.com",
-      "password": "1234",
-      "id": 20
-    },
-    {
-      "email": "marcos80@gmail.com",
-      "password": "1234",
-      "id": 21
-    },
-    {
-      "email": "marcos80@gmail.com",
-      "password": "1234",
-      "id": 22
-    },
-    {
-      "email": "marcos80@gmail.com",
-      "password": "1234",
-      "id": 23
-    },
-    {
-      "email": "marcos80@gmail.com",
-      "password": "1234",
-      "id": 24
     }
   ],
   "register": [
@@ -219,6 +150,22 @@
       "lastname": "Hernandez",
       "age": 30,
       "id": 16
+    },
+    {
+      "email": "marcos80@gmail.com",
+      "password": "1234",
+      "firstname": "Marcos",
+      "lastname": "Hernandez",
+      "age": 23,
+      "id": 17
+    },
+    {
+      "email": "marcos80@gmail.com",
+      "password": "1234",
+      "firstname": "Marcos",
+      "lastname": "Hernandez",
+      "age": 23,
+      "id": 18
     }
   ]
 }
