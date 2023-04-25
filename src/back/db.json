@@ -9,14 +9,6 @@
       "id": 1
     },
     {
-      "name": "Delicious",
-      "price": 98,
-      "description": "Smells like Calçots i Romesco: Fun and delicious, with hints of barley and ember.",
-      "stars": 4.1,
-      "image": "../assets/smells-img.jpg",
-      "id": 4
-    },
-    {
       "name": "Christmas",
       "price": 89,
       "description": "Smells like Christmas: cinnamon, freshly ground coffee beans, chocolate and a family atmosphere.",
@@ -116,6 +108,11 @@
       "email": "marcos80@gmail.com",
       "password": "1234",
       "id": 15
+    },
+    {
+      "email": "marcos80@gmail.com",
+      "password": "1234",
+      "id": 16
     }
   ],
   "register": [
