@@ -17,6 +17,86 @@
       "id": 6
     },
     {
+      "name": "Spirit",
+      "price": 130,
+      "description": "Smells like Teen Spirit: Hormones, freshness and the whole future ahead",
+      "stars": 4,
+      "image": "../assets/smells-img.jpg",
+      "id": 1
+    },
+    {
+      "name": "Christmas",
+      "price": 89,
+      "description": "Smells like Christmas: cinnamon, freshly ground coffee beans, chocolate and a family atmosphere.",
+      "stars": 3.9,
+      "image": "../assets/smells-img.jpg",
+      "id": 6
+    },
+    {
+      "name": "Butterflies",
+      "price": 120,
+      "description": "Smells like butterflies: the aroma of freedom, nature and purity in its purest form.",
+      "stars": 4.8,
+      "image": "../assets/smells-img.jpg",
+      "id": 7
+    },
+    {
+      "name": "Tranquility",
+      "price": 114,
+      "description": "Smells like tranquility: the aroma of real happiness, when you set your mind to something and meet that goal.",
+      "stars": 5,
+      "image": "../assets/smells-img.jpg",
+      "id": 8
+    },
+    {
+      "name": "Spirit",
+      "price": 130,
+      "description": "Smells like Teen Spirit: Hormones, freshness and the whole future ahead",
+      "stars": 4,
+      "image": "../assets/smells-img.jpg",
+      "id": 1
+    },
+    {
+      "name": "Christmas",
+      "price": 89,
+      "description": "Smells like Christmas: cinnamon, freshly ground coffee beans, chocolate and a family atmosphere.",
+      "stars": 3.9,
+      "image": "../assets/smells-img.jpg",
+      "id": 6
+    },
+    {
+      "name": "Butterflies",
+      "price": 120,
+      "description": "Smells like butterflies: the aroma of freedom, nature and purity in its purest form.",
+      "stars": 4.8,
+      "image": "../assets/smells-img.jpg",
+      "id": 7
+    },
+    {
+      "name": "Tranquility",
+      "price": 114,
+      "description": "Smells like tranquility: the aroma of real happiness, when you set your mind to something and meet that goal.",
+      "stars": 5,
+      "image": "../assets/smells-img.jpg",
+      "id": 8
+    },
+    {
+      "name": "Spirit",
+      "price": 130,
+      "description": "Smells like Teen Spirit: Hormones, freshness and the whole future ahead",
+      "stars": 4,
+      "image": "../assets/smells-img.jpg",
+      "id": 1
+    },
+    {
+      "name": "Christmas",
+      "price": 89,
+      "description": "Smells like Christmas: cinnamon, freshly ground coffee beans, chocolate and a family atmosphere.",
+      "stars": 3.9,
+      "image": "../assets/smells-img.jpg",
+      "id": 6
+    },
+    {
       "name": "Butterflies",
       "price": 120,
       "description": "Smells like butterflies: the aroma of freedom, nature and purity in its purest form.",
