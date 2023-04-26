@@ -9,14 +9,6 @@
       "id": 1
     },
     {
-      "name": "Christmas",
-      "price": 89,
-      "description": "Smells like Christmas: cinnamon, freshly ground coffee beans, chocolate and a family atmosphere.",
-      "stars": 3.9,
-      "image": "../assets/smells-img.jpg",
-      "id": 6
-    },
-    {
       "name": "Spirit",
       "price": 130,
       "description": "Smells like Teen Spirit: Hormones, freshness and the whole future ahead",
@@ -223,6 +215,11 @@
       "email": "sonia40@gmail.com",
       "password": "1234",
       "id": 22
+    },
+    {
+      "email": "sonia40@gmail.com",
+      "password": "1234",
+      "id": 23
     }
   ],
   "register": [
@@ -297,6 +294,14 @@
       "lastname": "Sala",
       "age": 20,
       "id": 21
+    },
+    {
+      "email": "sonia40@gmail.com",
+      "password": "1234",
+      "firstname": "Sonia",
+      "lastname": "Sala",
+      "age": 20,
+      "id": 22
     }
   ]
 }

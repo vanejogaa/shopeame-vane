@@ -24,28 +24,28 @@ export class ProductoServicioService {
     image: ""
   }
 
-  getProducts(): Observable<productInterface[]>{
+  public getProducts(): Observable<productInterface[]>{
     return this.http.get<productInterface[]>(this.products_url);
   }
 
-  postItem(item:any) {
+  public postItem(item:any) {
     return this.http.post(this.products_url,item);
   }
 
-  patchItem(item:any) {
-    return this.http.patch(this.products_url,item);
-  }
-
-  getItem(id:number) {
+  public getItem(id:number) {
     return this.http.get(`${this.products_url}/${id}`)
   } //Función que añade a la url el id del array
 
-  removeItem(id:number) {
+  public removeItem(id:number) {
     return this.http.delete(`${this.products_url}/${id}`);
   }
 
-  editItem(id:number) {
-    return this.http.patch;
+  public editItem(item:any) {
+    this.products_url = item;
+  }
+
+  public patchItem(item:any) {
+    return this.http.put(this.products_url,item);
   }
 
 }

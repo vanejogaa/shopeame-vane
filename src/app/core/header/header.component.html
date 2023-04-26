@@ -29,13 +29,13 @@
         >|
       </div>
       <div class="menu-button">
-        <a routerLink="/login">
+        <a *ngIf="!user" routerLink="/login">
           <i class="fas fa-edit"></i>
           Login</a
         >|
       </div>
       <div class="menu-button">
-        <a routerLink="/register">
+        <a *ngIf="!user" routerLink="/register">
           <i class="fas fa-edit"></i>
           Register</a
         >|

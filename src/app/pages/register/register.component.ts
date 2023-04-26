@@ -13,6 +13,7 @@ export class RegisterComponent {
   firstname: string = ""
   lastname: string = ""
   age: number = 18
+  mensaje: string = ""
 
   constructor(private AuthService: AuthService){}
 
@@ -22,7 +23,9 @@ export class RegisterComponent {
       this.pwd,
       this.firstname,
       this.lastname,
-      this.age
+      this.age,
+      
+      
     ).subscribe(data=>{
       alert('registrado correctamente')
     },
