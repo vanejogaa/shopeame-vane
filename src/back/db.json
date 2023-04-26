@@ -198,6 +198,31 @@
       "email": "marcos80@gmail.com",
       "password": "1234",
       "id": 17
+    },
+    {
+      "email": "marcos80@gmail.com",
+      "password": "1234",
+      "id": 18
+    },
+    {
+      "email": "carla74@gmail.com",
+      "password": "1234",
+      "id": 19
+    },
+    {
+      "email": "carla74@gmail.com",
+      "password": "1334",
+      "id": 20
+    },
+    {
+      "email": "carla74@gmail.com",
+      "password": "1234",
+      "id": 21
+    },
+    {
+      "email": "sonia40@gmail.com",
+      "password": "1234",
+      "id": 22
     }
   ],
   "register": [
@@ -248,6 +273,30 @@
       "lastname": "Hernandez",
       "age": 23,
       "id": 18
+    },
+    {
+      "email": "vanesa32@gmail.com",
+      "password": "1234",
+      "firstname": "Vanesa",
+      "lastname": "Gracia",
+      "age": 25,
+      "id": 19
+    },
+    {
+      "email": "vanesa25@gmail.com",
+      "password": "1234",
+      "firstname": "Vanesa",
+      "lastname": "Liria",
+      "age": 28,
+      "id": 20
+    },
+    {
+      "email": "sonia40@gmail.com",
+      "password": "1234",
+      "firstname": "Sonia",
+      "lastname": "Sala",
+      "age": 20,
+      "id": 21
     }
   ]
 }
